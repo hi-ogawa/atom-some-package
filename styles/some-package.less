@@ -1,0 +1,31 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+.man-search-modal-panel {
+  .man-item {
+    font-family: monospace;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+
+    &__section {
+      flex: 0 0 auto;
+      width: 40px;
+      text-align: center;
+    }
+
+    &__name {
+      flex: 0 0 auto;
+      margin-right: 15px;
+      font-weight: bold;
+    }
+
+    &__description {
+      flex: 1 1 auto;
+      text-align: right;
+    }
+  }
+}
